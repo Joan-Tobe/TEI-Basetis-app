@@ -1,0 +1,169 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ct="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+    <teiHeader xml:lang="es">
+        <fileDesc>
+            <titleStmt>
+                <title ref="#ibvh_qcc_1z" type="incipit">
+                    <idno>IEM-FOL-BAR-00010</idno>
+                    [...]invitación a participar en el Anuario[...]
+                </title>
+                <principal ref="https://diarium.usal.es/mom/">
+                    <affiliation type="universidad">**
+                        <orgName>Universidad de Salamanca</orgName>
+                        <ref target="https://www.usal.es/"/>
+                    </affiliation>
+                    <persName>
+                        <surname>Olarte</surname>
+                        <forename>Matilde</forename>
+                    </persName>
+                </principal>
+                <editor role="compilador">
+                    <affiliation type="Univerisdad">
+                        <orgName>Rovira i Virgili</orgName>
+                        <ref target="https://www.urv.cat/es/"/>
+                    </affiliation>
+                    <persName>
+                        <surname>Canela</surname>
+                        <forename>Montserrat</forename>
+                    </persName>
+                </editor>
+                <editor role="trascriptor">
+                    <affiliation type="conservatorio">
+                        <orgName>Conservatorio Superior de Castilla y León</orgName>
+                        <ref target="https://coscyl.com/"/>
+                    </affiliation>
+                    <persName>
+                        <surname>Sara</surname>
+                        <forename>Escuer</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <orgName ref="https://ihmagine.usal.es/">IHMAGINE: investigaciones musicales</orgName>
+                    <resp>
+                        <note type="remarkResponsibility">Trascripción, análisis y edición digital</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Digital IEM: 1940-1960 Folklore Section Correspondence</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://usal.es/">Universidad de Salamanca</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Salamanca</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International license</p>
+                        <note>Reutilizable en el ámbito académico previa atribución a los responsables intelectuales y  materiales de los contenidos</note>
+                    </licence>
+                </availability>
+            </publicationStmt>            <!-- info sobre la publicación electrónica -->
+            <notesStmt>
+                <note>Carta personal enviada fuera del circuito propio de la institución</note>
+                <relatedItem>
+                    <bibl>
+                        <title ref="#ibvh_qcc_1z">
+                            <idno>IEM-FOL-MAD-anuario1940</idno>
+                            Anuario IEM 1940
+                        </title>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>                <!-- información sobre la fuente -->
+                <bibl>
+                    <country>España
+                        <settlement>Barcelona</settlement>
+                    </country>
+                    <orgName type="acrónimo">CSIC</orgName>
+                    <orgName>Centro Superior de Investigaciones Científicas</orgName>
+                    <orgName type="sección">Folclore</orgName>
+                    <date ana="producción">1944-1969</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent" subtype="contestada">
+                    <persName key="SIEM-Per-0017">Schneider, Marius </persName>
+                    <placeName key="S0000065" cert="low">Barcelona</placeName>
+                    <date when="1948-01-26" cert="high" source="registro"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="S0002364">Anglés, Higini</persName>
+                </correspAction>
+                <correspContext>                    <!-- relación de la carta dentro del flujo -->
+                    <ref type="prev" target="http://....../A040962"> carta previa de
+                        <persName>Romeau</persName> to
+                        <persName>Schenider</persName>:
+                        <date when="1940-12-30">Diciembre 30, 1940</date>
+                    </ref>
+                    <ref type="next" target="http://...../A041003"> carta siguiente de
+                        <persName>Anglés</persName> a
+                        <persName>Schenider</persName>:
+                        <date when="1817-01-05">Enero 5, 1840</date>
+                    </ref>
+                </correspContext>
+                <note>                    <!-- nota claratoria de cualquier tipo -->
+                    Localizaciones y data tomadas de libro de registro 1940, tomo II
+                    <ref target="S0006488/#start_zwp_xpy_gr">Registro 1940, tomo II</ref>
+                </note>
+            </correspDesc>
+            <abstract>
+                <p>
+                    Marius Schneider recrimina al señor Rameau su opsición o participar en publicación e informa de la inminente publicación en homenaj a Bruno Stäblein
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text type="carta" subtype="personal" ana="aclaración">
+        <body>
+            <div n="1" type="preliminar">
+                <salute> Muy estimado y querido padre
+                    <persName role="receptor">
+                        <surname ref="#ibvh_qcc_1z">Anglés,</surname>
+                    </persName>
+                </salute>
+            </div>
+            <div n="2" type="cuerpo">                <!-- división estructural -->
+                <p>
+                    Muchas gracias por su amable carta y gracias también por su invitación 
+                    a participar en el <objectName type="colección" xml:id="b12" ref="#b12">Anuario</objectName> la cual acepto gustosamente. 
+                    Habría incluso colaborado con mucho gusto en la publicación de otras Canciones populares si el señor 
+                    <persName type="apellido" role="compiler" ref="#ibvh_qcc_1z">Romeau</persName> 
+                    no me hubiera dicho, que usted me prohibía las consultas de los encargos y las Canciones de Andalucía que yo ya había terminado.
+                </p>
+                <p>
+                    En respuesta a su carta ahora tengo que pensar, que el señor 
+                    <persName>
+                        <surname role="compiler" ref="#ibvh_qcc_1z">Romeau</surname>
+                    </persName>
+                    , que además de no haber terminado los textos, me ha mentido. 
+                </p>
+                <p>
+                    Me alegra que usted se interese por mis 
+                    <objectType xml:id="a23" ana="edición corpus" ref="#a23">interpretaciones rítmicas</objectType>. 
+                    La parte principal de esa investigación musical se publicará en el Homenaje a 
+                    <supplied source="correspondencia anterior" cert="high" corresp="IEM-FOL-BAR-00128">Bruno</supplied> Stäblein. 
+                    Tan pronto como tenga las separatas le enviaré un ejemplar. 
+                </p>
+                <p>
+                    De salud estoy bien. Tengo ahora dos veces al año clase en la 
+                    <orgName>Universidad <settlement>Beirut</settlement>
+                        <country>(Líbano)</country>
+                    </orgName>, 
+                    donde me estoy dedicando a la música con motivo de un <objectName type="cancionero" n="23" ref="#ibvh_qcc_1z">Corpus mediterranium</objectName>.
+                </p>
+            </div>
+            <closer>
+                Con el deseo de que esté bien de salud y de que se hayan aclarado todos los malentendidos, 
+                Siempre agradecido       
+                <lb/>
+                <signed>
+                    <persName key="IEM-Per-0034">Marius Schneider</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

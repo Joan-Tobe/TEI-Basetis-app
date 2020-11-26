@@ -1,0 +1,8 @@
+{
+  "dependencies" : {
+    "@teipublisher/pb-components" : "1.7.1"
+  },
+  "name" : "basetis",
+  "version" : "1.0.0",
+  "description" : "Basetis Letters"
+}
